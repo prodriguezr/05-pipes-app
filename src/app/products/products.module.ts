@@ -9,12 +9,18 @@ import {
   NumbersPageComponent,
   UncommonPageComponent,
 } from './pages';
+import { OrderPageComponent } from './pages/order-page/order-page.component';
+import { CanFlyPipe, ToggleCasePipe, SortByPipe } from './pipes';
 
 @NgModule({
   declarations: [
     BasicsPageComponent,
     NumbersPageComponent,
     UncommonPageComponent,
+    OrderPageComponent,
+    ToggleCasePipe,
+    CanFlyPipe,
+    SortByPipe,
   ],
   imports: [CommonModule, ProductsRoutingModule, PrimeNgModule],
 })

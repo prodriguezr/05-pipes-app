@@ -5,6 +5,7 @@ import {
   UncommonPageComponent,
   NumbersPageComponent,
 } from './pages';
+import { OrderPageComponent } from './pages/order-page/order-page.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path: 'uncommon',
     component: UncommonPageComponent,
+  },
+  {
+    path: 'order',
+    component: OrderPageComponent,
   },
   {
     path: '**',
